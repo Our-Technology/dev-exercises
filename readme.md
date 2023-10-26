@@ -6,7 +6,7 @@ Thanks for taking the time to checkout out our development exercises. The Goal o
 - Thought process in solving problems
 - Proficiency and understanding of tools, and ability to learn
 
-You'll find exercises for [backend](./backend) and [frontend](./frontend) skillsets, respectively.
+You'll find exercises for [backend](./packages/backend) and [frontend](./packages/frontend) skillsets, respectively.
 
 Please fork this repo, and submit your work via a Pull Request, and request review from @jpowell. Thanks!
 
