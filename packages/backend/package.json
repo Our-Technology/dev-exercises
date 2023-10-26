@@ -1,0 +1,11 @@
+{
+  "name": "@exercise/backend",
+  "version": "1.0.0",
+  "description": "Repo for OurTechnology backend dev exercise",
+  "main": "src/index.ts",
+  "dependencies": {},
+  "scripts": {
+    "test": "jest",
+    "start": "ts-node src/index.ts"
+  }
+}
