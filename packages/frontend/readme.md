@@ -25,3 +25,4 @@ These are the hard functional requirements. Above behavior is described at a hig
 
 #### Considerations
 - See documentation for Typesense for instantsearch and geosearch.
+- See [screenshots](./screenshots) for examples from the OurCalling app.
