@@ -17,7 +17,7 @@ You can find the resource schema in the [type definition](../../types/resource.d
 #### Functional Requirements
 
 These are the hard functional requirements. Above behavior is described at a high-level. The following are the "shalls":
-- Your code shall run via ts-node CLI and be able to demonstrate a working version of the above requirements being met.
+- Your code shall run via ts-node CLI and/or combine with edge functions and be able to demonstrate a working version of the requirements being met.
 - You shall allow a user to provide a text string for an address.
 - You shall refine the meta data about that address and upsert a record into the supabase database.
 - You shall include geocoding a location and include the coordinates in the record.
@@ -27,5 +27,4 @@ These are the hard functional requirements. Above behavior is described at a hig
 #### Considerations
 - See documentation for Supabase
 - See documentation for Typesense
-- Consider a way to asynchronously populate the Typesense index after database upsert
-  - Supabase edge functions may be a way to do this
+- Consider using edge functions to acheive the google place lookup and subsequent search index modification
